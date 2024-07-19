@@ -34,9 +34,30 @@ private:
 	sf::RenderWindow m_window; // main SFML window
 	sf::Font m_ArialBlackfont; // font used by message
 	sf::Text m_welcomeMessage; // text used for message on screen
-	sf::Texture m_logoTexture; // texture used for sfml logo
-	sf::Sprite m_logoSprite; // sprite used for sfml logo
+
 	bool m_exitGame; // control exiting game
+
+	//Background sprites & textures
+	sf::Texture m_labBackgroundTexture; // texture for lab bg
+	sf::Sprite m_labBackgroundSprite; // sprite for lab bg
+	sf::Texture m_labBackgroundShadeTexture;//texture for lab bg shade
+	sf::Sprite m_labBackgroundShadeSprite; //sprite for bg lab shade 
+
+	//Potions sprites & textures
+	sf::Texture m_serumGreenTexture;
+	sf::Sprite m_serumGreenSprite;
+	sf::Texture m_serumYellowTexture;
+	sf::Sprite m_serumYellowSprite;
+	sf::Texture m_serumDarkBlueTexture;
+	sf::Sprite m_serumDarkBlueSprite;
+	sf::Texture m_serumBlueTexture;
+	sf::Sprite m_serumBlueSprite;
+	sf::Texture m_redBloodTexture;
+	sf::Sprite m_redBloodSprite;
+	sf::Texture m_blueBloodTexture;
+	sf::Sprite m_blueBloodSprite;
+	sf::Texture m_blackBloodTexture;
+	sf::Sprite m_blackBloodSprite;
 
 };
 
