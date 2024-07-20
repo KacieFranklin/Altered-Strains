@@ -19,3 +19,7 @@ void Player::useItems()
 void Player::getItems()
 {
 }
+
+void Player::getSerums()
+{
+}
